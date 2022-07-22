@@ -1,0 +1,85 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    padding: 50px;
+}
+   /* -------------------
+      start blog section
+    --------------------*/
+.blog{
+   background-color:black;
+   height: 560px;
+   border-radius: 25px;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 16px 25px;
+   gap: 10px;
+}
+.content{
+    color: white;
+    height: 531px;
+    width: 424px;
+    padding: 100px;
+}
+.h1{
+    font-size:40px;
+}
+.football-image-1{
+    height: 581px;
+    width: 613px;
+    padding: 100px;
+}
+
+.football-image-2{
+    opacity:0.5;
+    transition: 1s ease;
+    }
+    
+    .football-image-2:hover{
+    opacity:1;
+    transition: 1s ease;
+    }
+
+.Watch-Live {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .Watch-Live span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .Watch-Live:hover span {
+    padding-left: 10px;
+  }
+  
+  .Watch-Live:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+   /* -------------------
+      end blog section
+    --------------------*/
+    .button-box{
+        background-color: black;
+        border-radius: 25px;
+        height: 312px;
+        width: 312px;
+    }
+    .button-box{
+        padding-top: 10px;
+    }
