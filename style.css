@@ -5,9 +5,9 @@ body{
 body{
     padding: 50px;
 }
-   /* -------------------
+   /* -----------------------------------
       start blog section
-    --------------------*/
+   ----------------- --------------------*/
 .blog{
    background-color:black;
    height: 560px;
@@ -71,15 +71,46 @@ body{
     opacity: 1;
     right: 0;
   }
-   /* -------------------
+   /* -------------------------------------------
       end blog section
-    --------------------*/
-    .button-box{
+    ---------------------------------------------*/
+
+    /* -------------------------------------------
+      start button section
+    ---------------------------------------------*/
+.button-box{
         background-color: black;
         border-radius: 25px;
         height: 312px;
         width: 312px;
+        margin-top: 50px;
     }
-    .button-box{
-        padding-top: 10px;
+    .btn-group{
+      padding: 10px;
     }
+    .btn-group button{
+      height: 64px;
+      width: 252px;
+      border-radius: 25px;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      margin: 25px;
+      padding: 15px;      
+    }
+    .btn-group button {
+      background-color: white; 
+      color: black solid;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+    }
+    .btn-group button:active{
+      background-color:red;
+    }
+    .btn-group button:focus{
+      background-color:red;
+    }
+    /* ---------------------------------------------
+      end button section
+    ----------------------------------------------*/
